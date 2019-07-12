@@ -1,0 +1,85 @@
+/* HOME PAGE CSS
+*/
+
+body{
+  padding: 10%;
+  background-image: url("../images/dobby.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: #111;
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	line-height: .75;
+	margin: 20px;
+  display: flex;
+  font-size: 70px;
+  flex-direction:column;
+  padding: 100px 100px;
+  text-align: center;
+}
+.topNav a:hover {
+  background-color:#122;
+  text-decoration: underline;
+}
+.topNav a {
+  text-decoration:none;
+  color:white;
+  font-family: 'Nanum Myeongjo', serif;
+}
+.topNav{
+  display: flex;
+  justify-content:space-between;
+  margin-top: -70px;
+  font-family:'Nanum Myeongjo', serif;
+}
+
+.wizardpoo{
+  color: white;
+}
+.mybutton{
+  display:flex;
+  justify-content:center;
+  font-family: 'Nanum Myeongjo', serif;
+}
+#WingardiumLeviosa:hover {
+  background-color: #FFF;
+	color: #122;
+}
+#WingardiumLeviosa{
+  text-decoration: none;
+	padding: 15px 10px;
+	background-color: #122;
+	border-radius: 5px;
+	color: #FFF;
+  margin:20px;
+	transition: .35s ease-in-out;
+  font-size: 30px;
+}
+
+<style type="text/css">* {cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2011/02/06/harry-potter-magical-wand.html" target="_blank" title="Harry Potter Magical Wand"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Harry Potter Magical Wand" style="position:absolute; top: 0px; right: 0px;" /></a>
+/* HOME PAGE CSS
+*/
+
+/* Daily Prophet PAGE CSS
+*/
+
+
+.dailyBody {
+
+    padding: 10%;
+    background-image: url("../images/dobby.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
