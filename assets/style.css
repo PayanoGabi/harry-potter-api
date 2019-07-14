@@ -55,14 +55,11 @@ h1 {
 #phonebrain{
     width: 200px;
     height: auto;
-    display: flex;
-    justify-content: center;
-
+    margin-left: 385px;
 }
 #lordVoldi{
   width: 500px;
-  display: flex;
-  justify-content: center;
+  margin-left: 230px;
 }
 #WingardiumLeviosa:hover {
   background-color: #FFF;
@@ -84,6 +81,7 @@ h2 {
   font-size: 2.6em;
   display: flex;
   justify-content: center;
+
 
 }
 p{
