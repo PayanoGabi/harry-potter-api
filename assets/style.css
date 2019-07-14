@@ -75,10 +75,10 @@ h1 {
 */
 
 
-.dailyBody {
+#dailyBody {
 
     padding: 10%;
-    background-image: url("../images/dobby.jpg");
+    background-image: url("../images/parchment.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
