@@ -52,6 +52,18 @@ h1 {
   justify-content:center;
   font-family: 'Nanum Myeongjo', serif;
 }
+#phonebrain{
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+#lordVoldi{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
 #WingardiumLeviosa:hover {
   background-color: #FFF;
 	color: #122;
@@ -81,10 +93,6 @@ p{
   margin-left: 150px;
   margin-right: 150px;
   font-family: 'Volkhov', serif;
-}
-#phonebrain{
-    width: 200px;
-    height: auto
 }
 
 <style type="text/css">* {cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2011/02/06/harry-potter-magical-wand.html" target="_blank" title="Harry Potter Magical Wand"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Harry Potter Magical Wand" style="position:absolute; top: 0px; right: 0px;" /></a>
