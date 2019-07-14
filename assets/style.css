@@ -101,7 +101,7 @@ p{
 */
 
 
-#dailyBody {
+.dailyBody {
 
     padding: 10%;
     background-image: url("../images/parchment.jpg");
