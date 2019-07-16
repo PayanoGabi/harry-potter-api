@@ -15,11 +15,11 @@ document.getElementById("WingardiumLeviosa").addEventListener("click", function(
           data = JSON.parse(xhr.responseText);
 
           var  yooorrawizardary = (data[0].name);
-        
+
           wizardme.innerHTML = yooorrawizardary;
 
       } else {
-          // This will run when it's not
+          // This will run when it's not//
           console.log('MUGGLE!');
       };
 
@@ -27,6 +27,7 @@ document.getElementById("WingardiumLeviosa").addEventListener("click", function(
 
 xhr.open('GET', 'https://www.potterapi.com/v1/characters?key=$2a$10$0EcFOtPS83URbfanHNuJ0eiL4O2xdDxcQB1sR5k.CnC7nYF2oVDaK');
 xhr.send();
+
 
 }, false);
 
