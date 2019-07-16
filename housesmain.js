@@ -15,11 +15,11 @@ document.getElementById("sortingHat").addEventListener("click", function(event) 
           data = JSON.parse(xhr.responseText);
 
           var body = document.querySelector('.randomHouse');
-// Create paragraph element
+          // Create paragraph element
           var p = document.createElement('p');
-// Update content of p element with API data
+          // Update content of p element with API data
           p.textContent = JSON.parse(xhr.responseText);
-// Append p element to body
+          // Append p element to body
           body.appendChild(p);
       } else {
           // This will run when it's not
