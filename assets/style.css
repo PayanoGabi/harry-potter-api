@@ -123,8 +123,6 @@ p {
 Houses
 */
 #sortingHat{
-  display: flex;
-  justify-content: center;
   text-decoration: none;
 	padding: 15px 10px;
 	background-color: #122;
@@ -133,6 +131,20 @@ Houses
   margin:20px;
 	transition: .35s ease-in-out;
   font-size: 30px;
+
+}
+.randomHouse {
+  font-size: 30px;
+}
+
+#houses #sortingHat{
+  display: flex;
+  justify-content: center;
+
+}
+
+#housesbody p {
+  font-size: 35px;
 }
 .housesbody div {
   display: flex;
