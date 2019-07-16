@@ -55,11 +55,13 @@ h1 {
 #phonebrain{
     width: 200px;
     height: auto;
-    margin-left: 385px;
+    margin-left: 400px;
+    border: dashed white;
 }
 #lordVoldi{
   width: 500px;
-  margin-left: 230px;
+  margin-left: 250px;
+  border: dashed white;
 }
 #WingardiumLeviosa:hover {
   background-color: #FFF;
@@ -92,7 +94,17 @@ p{
   color: white;
   margin-left: 150px;
   margin-right: 150px;
-  font-family: 'Volkhov', serif;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+}
+#houses{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#houses h2 {
+  font-family: 'EB Garamond', serif;
 }
 
 <style type="text/css">* {cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2011/02/06/harry-potter-magical-wand.html" target="_blank" title="Harry Potter Magical Wand"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Harry Potter Magical Wand" style="position:absolute; top: 0px; right: 0px;" /></a>
@@ -122,6 +134,11 @@ p {
 /******
 Houses
 */
+#sortingHat:hover {
+  background-color: #FFF;
+  color: #122;
+}
+
 #sortingHat{
   text-decoration: none;
 	padding: 15px 10px;
@@ -132,22 +149,23 @@ Houses
 	transition: .35s ease-in-out;
   font-size: 30px;
 
+
 }
 .randomHouse {
   font-size: 30px;
 }
 
-#houses #sortingHat{
-  display: flex;
-  justify-content: center;
 
-}
-
-#housesbody p {
-  font-size: 35px;
+.housesbody p {
+  font-size: 25px;
 }
 .housesbody div {
   display: flex;
   justify-content: center;
   color: white;
+}
+
+.housesbody #sortingHat {
+  display: flex;
+  justify-content: center;
 }
