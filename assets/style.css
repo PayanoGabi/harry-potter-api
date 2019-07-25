@@ -169,3 +169,19 @@ Houses
   display: flex;
   justify-content: center;
 }
+@media only screen and (min-width: 750px){
+
+  #Home{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+  #Home .section1 {
+    display: flex;
+    align-items: center;
+  }
+}

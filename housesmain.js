@@ -34,5 +34,10 @@ xhr.send();
 
 }, false);
 
+function clearBox(elementID) {
+
+    document.getElementById(elementID).innerHTML = ".sortingHat";
+}
+
 var xhr = new XMLHttpRequest();
 var data = xhr.responseText;
